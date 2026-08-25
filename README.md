@@ -1,23 +1,47 @@
-# Verilog-DEMUX-Design-
-Verilog implementation and simulation of 1:2, 1:4, and 1:8 demultiplexers using behavioral modeling.
-This repository contains Verilog HDL implementations of 1-to-2, 1-to-4, and 1-to-8 Demultiplexers.
+# Verilog-DEMUX-Design
 
-Overview
-A Demultiplexer (DEMUX) is a combinational circuit that takes a single input and routes it to one of multiple outputs based on the select lines.
+Verilog implementation and simulation of **1:2, 1:4, and 1:8 Demultiplexers** using behavioral modeling.
 
-Implementations
-1-to-2 DEMUX — 1 select line, 2 outputs
-1-to-4 DEMUX — 2 select lines, 4 outputs
-1-to-8 DEMUX — 3 select lines, 8 outputs
+## DEMUX Designs
 
-Tools Used
-Verilog HDL
-EDA Playground
-Vivado
+* 1:2 Demultiplexer
+* 1:4 Demultiplexer
+* 1:8 Demultiplexer
 
-Concepts Used
-Behavioral Modeling
-always @(*)
-Select lines
-Testbench
-Simulation
+## Modeling Style
+
+All DEMUX designs are implemented using **Behavioral Modeling** in Verilog.
+
+## Simulation
+
+The designs were simulated and verified using testbenches by applying different input and select-line combinations.
+
+### 1:2 DEMUX
+
+* Input: 1
+* Select lines: 1
+* Outputs: 2
+* Total combinations: 2² = 4
+
+### 1:4 DEMUX
+
+* Input: 1
+* Select lines: 2
+* Outputs: 4
+* Total combinations: 2³ = 8
+
+### 1:8 DEMUX
+
+* Input: 1
+* Select lines: 3
+* Outputs: 8
+* Total combinations: 2⁴ = 16
+
+## Tools Used
+
+* Verilog HDL
+* Xilinx Vivado
+
+## Purpose
+
+This project is part of my **RTL/Verilog learning and practice for VLSI Design and Verification**.
